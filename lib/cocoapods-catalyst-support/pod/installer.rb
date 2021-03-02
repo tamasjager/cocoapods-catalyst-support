@@ -1,5 +1,3 @@
-require 'colorize'
-
 module Pod
 
   class Installer
@@ -16,7 +14,7 @@ module Pod
       end
 
       unless ios_pods_to_remove.empty? && catalyst_pods_to_remove.empty?
-        puts "Catalyst => Done! Your Catalyst dependencies are ready to go".green
+        puts "Catalyst => Done! Your Catalyst dependencies are ready to go"
       else
         puts "Catalyst => Nothing to configure"
       end
