@@ -1,5 +1,3 @@
-require 'colorize'
-
 module Pod
   class Command
     # This is an example of a cocoapods plugin adding a top-level subcommand
