@@ -1,4 +1,3 @@
-require 'colorize'
 require 'cocoapods-catalyst-support/command_helpers'
 
 include CocoapodsCatalystSupport
@@ -24,7 +23,7 @@ module Pod
           rescue ValidationError => e
             puts e.message
           else
-            puts "Congratulations! Your catalyst configuration is valid.".green
+            puts "Congratulations! Your catalyst configuration is valid."
           end
         end
 
